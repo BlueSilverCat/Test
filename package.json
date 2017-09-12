@@ -9,11 +9,18 @@
     "type": "git",
     "url": "git+https://github.com/BlueSilverCat/bsc-utilities.git"
   },
-  "keywords": ["utility", "personal"],
+  "keywords": [
+    "utility",
+    "personal"
+  ],
   "author": "BlueSilverCat",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/BlueSilverCat/bsc-utilities/issues"
   },
-  "description": "My personal utilities. Not convenient."
+  "description": "My personal utilities. Not convenient.",
+  "atomTestRunner": "./spec/custom-runner",
+  "devDependencies": {
+    "atom-jasmine2-test-runner": "^1.1.2"
+  }
 }
