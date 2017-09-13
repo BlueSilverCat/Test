@@ -3,6 +3,7 @@ install:
   - npm install --save-dev babel-cli
   - npm install --save-dev babel-register
   - npm install --save-dev babel-preset-env
+  - npm install --save-dev babel-preset-es2015
   - npm install --save-dev babel-preset-es2016
   - npm install jasmine
   - npm install -g jasmine
