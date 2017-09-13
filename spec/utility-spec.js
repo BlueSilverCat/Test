@@ -1,5 +1,7 @@
 "use babel";
 
+import "babel-polyfill";
+
 import {
   isEmpty,
   isEmptyString,
