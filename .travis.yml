@@ -8,6 +8,6 @@ install:
   - npm install -g jasmine
 before_script:
   - babel lib -d lib
-  - basel spec -d spec
+  - babel spec -d spec
 script:
   - jasmine
