@@ -1,14 +1,14 @@
 language: node_js
 install:
-  - npm install --save-dev babel-cli
+  #- npm install --save-dev babel-cli
   - npm install --save-dev babel-register
   - npm install --save-dev babel-preset-env
-  - npm install --save-dev babel-preset-es2015
-  - npm install --save-dev babel-preset-es2016
+  #- npm install --save-dev babel-preset-es2015
+  #- npm install --save-dev babel-preset-es2016
   - npm install jasmine
   - npm install -g jasmine
 before_script:
-  - babel lib -d lib
-  - babel spec -d spec
+  #- babel lib -d lib
+  #- babel spec -d spec
 script:
   - jasmine
