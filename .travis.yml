@@ -1,6 +1,7 @@
 language: node_js
 install:
   #- npm install --save-dev babel-cli
+  - npm install --save babel-polyfill
   - npm install --save-dev babel-register
   - npm install --save-dev babel-preset-env
   #- npm install --save-dev babel-preset-es2015
