@@ -7,7 +7,7 @@ install:
   - npm install jasmine
   - npm install -g jasmine
 before_script:
-  - babel src -d lib
-  - basel src -d spec
+  - babel lib -d lib
+  - basel spec -d spec
 script:
   - jasmine
