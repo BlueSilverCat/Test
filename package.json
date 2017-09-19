@@ -21,6 +21,8 @@
   "description": "My personal utilities. Not convenient.",
   "atomTestRunner": "./spec/custom-runner",
   "devDependencies": {
-    "atom-jasmine2-test-runner": "^1.1.2"
+    "atom-jasmine2-test-runner": "^1.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0"
   }
 }
